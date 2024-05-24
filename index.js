@@ -23,6 +23,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         url: pipsUrl,
         fileName: pipsFileName,
     }
+
     const whitepaperFileName = "Panoptic Whitepaper v1.3.1.pdf"
     const whitepaperUrl = 'https://raw.githubusercontent.com/panoptic-labs/whitepaper/main/Panoptic_Whitepaper_v1.3.1.pdf'
     const whitepaperMetadata = {
