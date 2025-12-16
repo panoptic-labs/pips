@@ -31,7 +31,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: 'https://raw.githubusercontent.com/panoptic-labs/defi-options-landscape-2025/main/DeFi_Option_Landscape.pdf',
+                url: 'https://raw.githubusercontent.com/panoptic-labs/pips/main/Panoptic_PIPs_v1.0.0.pdf',
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 headers: [
@@ -46,7 +46,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         /* Pass meta data of file */
         metaData: {
             /* file name */
-            fileName: "DeFi_Option_Landscape.pdf"
+            fileName: "Panoptic PIPs v1.0.0.pdf"
         }
     }, viewerConfig);
 });
